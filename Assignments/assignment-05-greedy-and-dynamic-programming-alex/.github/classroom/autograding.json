@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "test_huffman_simple",
+      "setup": "sudo -H pip3 install pytest; sudo -H pip3 install tabulate",
+      "run": "pytest main.py::test_huffman_simple",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "test_MED",
+      "setup": "sudo -H pip3 install pytest; sudo -H pip3 install tabulate",
+      "run": "pytest main.py::test_MED",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "test_align",
+      "setup": "sudo -H pip3 install pytest; sudo -H pip3 install tabulate",
+      "run": "pytest main.py::test_align",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 5
+    }
+  ]
+}

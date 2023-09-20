@@ -1,0 +1,134 @@
+{
+  "tests": [
+    {
+      "name": "test_isearch",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py \"https://www.dropbox.com/s/37ctvwr0a3f5uo5/test_main.py?dl=0\"",
+      "run": "pytest test_main.py::test_isearch",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "test_isearch2",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py \"https://www.dropbox.com/s/37ctvwr0a3f5uo5/test_main.py?dl=0\"",
+      "run": "pytest test_main.py::test_isearch2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "test_rsearch",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py \"https://www.dropbox.com/s/37ctvwr0a3f5uo5/test_main.py?dl=0\"",
+      "run": "pytest test_main.py::test_rsearch",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "test_rsearch2",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py \"https://www.dropbox.com/s/37ctvwr0a3f5uo5/test_main.py?dl=0\"",
+      "run": "pytest test_main.py::test_rsearch2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "test_dedup",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py \"https://www.dropbox.com/s/37ctvwr0a3f5uo5/test_main.py?dl=0\"",
+      "run": "pytest test_main.py::test_dedup",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "test_doc_index_reduce",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py \"https://www.dropbox.com/s/37ctvwr0a3f5uo5/test_main.py?dl=0\"",
+      "run": "pytest test_main.py::test_doc_index_reduce",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "test_index",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py \"https://www.dropbox.com/s/37ctvwr0a3f5uo5/test_main.py?dl=0\"",
+      "run": "pytest test_main.py::test_index",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "test_parens_match_iterative",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py \"https://www.dropbox.com/s/37ctvwr0a3f5uo5/test_main.py?dl=0\"",
+      "run": "pytest test_main.py::test_parens_match_iterative",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "test_parens_match_iterative2",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py \"https://www.dropbox.com/s/37ctvwr0a3f5uo5/test_main.py?dl=0\"",
+      "run": "pytest test_main.py::test_parens_match_iterative2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "test_parens_match_scan",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py \"https://www.dropbox.com/s/37ctvwr0a3f5uo5/test_main.py?dl=0\"",
+      "run": "pytest test_main.py::test_parens_match_scan",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "test_parens_match_scan2",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py \"https://www.dropbox.com/s/37ctvwr0a3f5uo5/test_main.py?dl=0\"",
+      "run": "pytest test_main.py::test_parens_match_scan2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "test_parens_match_dc",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py \"https://www.dropbox.com/s/37ctvwr0a3f5uo5/test_main.py?dl=0\"",
+      "run": "pytest test_main.py::test_parens_match_dc",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "test_parens_match_df2",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py \"https://www.dropbox.com/s/37ctvwr0a3f5uo5/test_main.py?dl=0\"",
+      "run": "pytest test_main.py::test_parens_match_df2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    }
+  ]
+}

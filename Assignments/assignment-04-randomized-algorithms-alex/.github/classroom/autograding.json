@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "test_qsort_fixed",
+      "setup": "sudo -H pip3 install pytest; sudo -H pip3 install tabulate; sudo -H pip3 install matplotlib;  wget -O test_main.py \"https://www.dropbox.com/s/iqpxz0t68ywume4/test_main.py?dl=0\"",
+      "run": "pytest test_main.py::test_qsort_fixed",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 4
+    },
+    {
+      "name": "test_qsort_random",
+      "setup": "sudo -H pip3 install pytest; sudo -H pip3 install tabulate; sudo -H pip3 install matplotlib; wget -O test_main.py \"https://www.dropbox.com/s/iqpxz0t68ywume4/test_main.py?dl=0\"",
+      "run": "pytest test_main.py::test_qsort_random",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 4
+    }
+  ]
+}
